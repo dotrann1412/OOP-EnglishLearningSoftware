@@ -6,6 +6,7 @@ Home::Home(QWidget *parent)
     , ui(new Ui::Home)
 {
     ui->setupUi(this);
+    setWindowFlags(windowFlags() &(~Qt::WindowMaximizeButtonHint));
 }
 
 Home::~Home()

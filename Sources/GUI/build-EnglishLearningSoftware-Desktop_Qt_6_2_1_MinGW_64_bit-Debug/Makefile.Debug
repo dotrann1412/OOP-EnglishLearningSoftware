@@ -58,7 +58,8 @@ OBJECTS       = debug/main.o \
 		debug/qrc_qmake_qmake_qm_files.o \
 		debug/moc_home.o
 
-DIST          =  ..\EnglishLearningSoftware\home.h ..\EnglishLearningSoftware\main.cpp \
+DIST          = HomePageBackground.png \
+		Resources/image/HomePageBackground.jpg ..\EnglishLearningSoftware\home.h ..\EnglishLearningSoftware\main.cpp \
 		..\EnglishLearningSoftware\home.cpp
 QMAKE_TARGET  = EnglishLearningSoftware
 DESTDIR        = debug\ #avoid trailing-slash linebreak
@@ -571,7 +572,42 @@ debug/home.o: ../EnglishLearningSoftware/home.cpp ../EnglishLearningSoftware/hom
 		C:/Qt/6.2.1/mingw81_64/include/QtCore/qloggingcategory.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qtabwidget.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qicon.h \
-		ui_home.h
+		ui_home.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QVariant \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QApplication \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qapplication.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfuture.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfutureinterface.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qmutex.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qresultstore.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfuture_impl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qthreadpool.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qthread.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qdeadlinetimer.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qelapsedtimer.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qrunnable.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qexception.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qapplicationpermission.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcoreapplication_platform.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qguiapplication.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qinputmethod.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qlocale.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QFrame \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QLabel \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qlabel.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpicture.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextdocument.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMenuBar \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmenubar.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmenu.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qaction.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QStatusBar \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qstatusbar.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\home.o ..\EnglishLearningSoftware\home.cpp
 
 debug/qrc_qmake_qmake_qm_files.o: debug/qrc_qmake_qmake_qm_files.cpp 
