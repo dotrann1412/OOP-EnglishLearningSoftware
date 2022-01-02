@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/icon/hand-up.jpg</file>
+        <file>resources/icon/hand-up.png</file>
+        <file>resources/icon/favicon.png</file>
+        <file>resources/courses/default.jpg</file>
+    </qresource>
+</RCC>
