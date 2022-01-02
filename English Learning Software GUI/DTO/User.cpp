@@ -25,7 +25,7 @@ bool User::isValidPassword(std::string password) {
 // this constructors to create object with data from data base
 User::User(std::string _id, std::string _userName, std::string _password, 
 		std::string _name, std::string _phoneNumber, std::string _email, 
-		Date _date, bool _gender, int _role, std::vector<std::string> _courses){
+        Date _date, bool _gender, int _role, int rating, std::vector<std::string> _courses){
 	
 	this->_id = _id;
 	this->_userName = _userName;
@@ -33,6 +33,7 @@ User::User(std::string _id, std::string _userName, std::string _password,
 	this->_name = _name;
 	this->_gender = _gender;
 	this->_role = _role;
+    this->_rating = rating;
 	this->_phoneNumber = _phoneNumber;
 	this->_email = _email;
 	this->_dayOfBirth = _date;
@@ -60,6 +61,7 @@ User::User(std::string uname, std::string password) {
 	this->_dayOfBirth = Date::now();
 	this->_gender = User::ks_default_gender;
 	this->_courses = std::vector<std::string>();
+    this->_rating = 0;
 }
 
 User::~User() {
@@ -198,8 +200,9 @@ void User::save() {
 	data[this->_userName]["gender"] = this->_gender;
 	data[this->_userName]["role"] = this->_role;
 	data[this->_userName]["courses"] = Json::Value(Json::arrayValue);
+    data[this->_userName]["rating"] = this->_rating;
 
-	for(int i = 0; i < this->_courses.size(); ++i)
+    for(int i = 0; i < this->_courses.size(); ++i)
 		data[this->_userName]["courses"][i] = this->_courses[i];
 	
 	User::updateData(data);
@@ -207,6 +210,7 @@ void User::save() {
 
 User* User::getInstance(std::string username, std::string password) {
 	Json::Value data = User::getData();
+
 	password = md5(password);
     if(data == Json::nullValue
         || data[username] == Json::nullValue
@@ -216,8 +220,8 @@ User* User::getInstance(std::string username, std::string password) {
 	data = data[username];
 
 	std::vector<std::string> courses;
-	for(const auto& x: data["courses"])
-		courses.push_back(x.asString());
+    //for(const auto& x: data["courses"])
+        //courses.push_back(x.asString());
 
 	return new User(
 		data["id"].asString(), 
@@ -229,6 +233,7 @@ User* User::getInstance(std::string username, std::string password) {
 		data["date_of_birth"].asString(), 
 		data["gender"].asBool(), 
 		data["role"].asInt(),
+        data["rating"].asInt(),
 		courses
 	);
 }

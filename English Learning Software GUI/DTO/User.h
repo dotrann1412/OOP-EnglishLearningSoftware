@@ -48,6 +48,7 @@ protected:
 	Date 			_dayOfBirth;
 	bool 			_gender;
 	int 			_role;
+    int             _rating;
 
 protected:
 	std::vector<std::string> _courses;
@@ -61,7 +62,7 @@ protected:
 	User(std::string, std::string);
 	User(std::string _id, std::string _userName, std::string _password, 
 		std::string _name, std::string _phoneNumber, std::string _email, 
-		Date date, bool gender, int role, std::vector<std::string> _courses);
+        Date date, bool gender, int role, int rating, std::vector<std::string> _courses);
 
 public:
 	virtual ~User();
@@ -75,6 +76,7 @@ public:
 	Date getDayOfBirth();
 	bool getGender();
 	int getRole();
+    int getRating();
 
 	std::vector<std::string> getCourses();
 
@@ -89,6 +91,7 @@ public:
 	void setDayOfBirth(Date);
 	void setGender(bool _gender);
 	void setRole(int _role);
+    void setRating(int rating);
 	bool addCourses(std::string id);
 	bool removeCourses(std::string id);
 
