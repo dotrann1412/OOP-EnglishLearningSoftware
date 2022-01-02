@@ -17,6 +17,7 @@ public:
 	static bool verify(const std::string& username, const std::string& password);
 	static User* login(const std::string& username, const std::string& password);
 	static bool signUp(const std::string& username, const std::string& password);
+    static std::vector<User*> userList();
 };
 
 #endif

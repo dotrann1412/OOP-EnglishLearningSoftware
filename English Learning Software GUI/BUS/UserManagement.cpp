@@ -22,9 +22,12 @@ bool UserManagement::verify(const std::string& username, const std::string& pass
 
 User* UserManagement::login(const std::string& username, const std::string& password) {
 	Json::Value value;
-    std::ifstream fileIn = Connection::binFileReader(User::ks_database_path);
-	fileIn >> value;
-	fileIn.close();
+
+    std::ifstream fileIn = Connection::fileReader(User::ks_database_path);
+    std::string s;
+
+    fileIn >> value;
+    fileIn.close();
 
     if(value == Json::nullValue || value[username] == Json::nullValue)
 		return nullptr;
