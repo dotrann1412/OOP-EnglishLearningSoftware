@@ -13,8 +13,9 @@ int Admin::s_instanceCount = 0;
 
 Admin::Admin(std::string _id, std::string _userName, std::string _password, 
 		std::string _name, std::string _phoneNumber, std::string _email, 
-        Date _date, bool _gender, int _role, std::vector<std::string> _courseslist)
-        : User(_id, _userName, _password, _name, _phoneNumber, _email, _date, _gender, _role, _courseslist) {
+        Date _date, bool _gender, int _role, int _rating, std::vector<std::string> _courseslist)
+        : User(_id, _userName, _password, _name, _phoneNumber, _email,
+               _date, _gender, _role, _rating, _courseslist) {
 
     if(!Admin::s_instanceCount)
         Admin::initializeTaskList();
@@ -124,15 +125,77 @@ Task Admin::pendingTask() {
 }
 
 bool Admin::setRole(const string& password, const std::string& id, int role) {
+    if(!UserManagement::verify(this->_userName, password))
+        return false;
+
+    Json::Value data;
+    std::ifstream fileIn = Connection::binFileReader(User::ks_database_path);
+    fileIn >> data;
+
+    if(data[id] != Json::nullValue) {
+        if(data[id]["role"].asInt() == role)
+            return false;
+
+        if(role == User::STUDENT || role == User::ADMIN) {
+           if(data[id]["courses"] != Json::arrayValue)
+               data[id].removeMember("courses");
+        } else if(role == User::TEACHER)
+            data[id]["courses_added"] = Json::arrayValue;
+
+        data[id]["role"] = role;
+
+        std::ofstream fileOut = Connection::binFileWriter(User::ks_database_path);
+        fileOut << data;
+        fileOut.close();
+
+        return true;
+    }
 	return false;
 }
 
 bool Admin::removeAccount(const std::string& password, const std::string& id) {
+    if(!UserManagement::verify(this->_userName, password))
+        return false;
+
+    Json::Value data;
+    std::ifstream fileIn = Connection::binFileReader(User::ks_database_path);
+    fileIn >> data;
+
+    if(data[id] != Json::nullValue) {
+        data.removeMember(id);
+
+        std::ofstream fileOut = Connection::binFileWriter(User::ks_database_path);
+        fileOut << data;
+        fileOut.close();
+
+        return true;
+    }
+
 	return false;
 }
 
 bool Admin::addNewTask(const Task& newtask) {
-	Admin::ks_task_list->push(newtask);
+    if(Admin::ks_task_list)
+        Admin::ks_task_list->push(newtask);
+    else {
+        Json::Value value;
+        std::ifstream fileIn = Connection::binFileReader(Admin::ks_admin_task_list_database_path);
+        fileIn >> value;
+        fileIn.close();
+
+        int len = value["undone"].size();
+
+        Json::Value task;
+
+        task["id"] = newtask.getTaskId();
+        task["message"] = newtask.getMessage();
+        task["priority"] = newtask.getPriority();
+        value["undone"][len] = task;
+
+        std::ofstream fileOut = Connection::binFileWriter(Admin::ks_admin_task_list_database_path);
+        fileOut << value;
+        fileOut.close();
+    }
 	return true;
 }
 
@@ -151,9 +214,6 @@ std::vector<Task> Admin::exactTaskList() {
 std::string Admin::toString() const {
 	return User::toString();
 }
-
-#include <iostream>
-
 
 Admin* Admin::getInstance(std::string username, std::string password) {
 	Json::Value data = User::getData();
@@ -180,6 +240,7 @@ Admin* Admin::getInstance(std::string username, std::string password) {
 		data["date_of_birth"].asString(), 
 		data["gender"].asBool(), 
 		data["role"].asInt(),
+        data["rating"].asInt(),
 		courses
 	);
 }

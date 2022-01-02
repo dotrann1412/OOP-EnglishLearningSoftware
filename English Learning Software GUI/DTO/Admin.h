@@ -21,7 +21,7 @@ private:
 public:
 	Admin(std::string _id, std::string _userName, std::string _password, 
 		std::string _name, std::string _phoneNumber, std::string _email, 
-		Date _date, bool _gender, int _role, std::vector<std::string> v = std::vector<std::string>());
+        Date _date, bool _gender, int _role, int _rating, std::vector<std::string> v = std::vector<std::string>());
 	
 	Admin();
 	
