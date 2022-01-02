@@ -13,14 +13,14 @@ private:
 public:
 	Teacher(std::string _id, std::string _userName, std::string _password, 
 		std::string _name, std::string _phoneNumber, std::string _email, 
-		Date _date, bool _gender, int _role, std::vector<std::string> _courseslist,
+        Date _date, bool _gender, int _role, int _rating, std::vector<std::string> _courseslist,
 		std::vector<std::string> _coursesAdded);
 
 	~Teacher();
 
 public:
 	std::vector<std::string> getCoursesAddedList();
-	std::string toString();
+    std::string toString() const;
 
 public:
 	void add(std::string id);

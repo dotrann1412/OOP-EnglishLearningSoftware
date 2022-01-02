@@ -7,9 +7,9 @@
 
 Teacher::Teacher(std::string _id, std::string _userName, std::string _password, 
 		std::string _name, std::string _phoneNumber, std::string _email, 
-		Date _date, bool _gender, int _role, std::vector<std::string> _courseslist,
+        Date _date, bool _gender, int _role, int _rating, std::vector<std::string> _courseslist,
 		std::vector<std::string> _coursesAdded)
-	: User(_id, _userName, _password, _name, _phoneNumber, _email, _date, _gender, _role, _courseslist) {
+    : User(_id, _userName, _password, _name, _phoneNumber, _email, _date, _gender, _role, _rating, _courseslist) {
 
 	this->_coursesAdded.assign(_coursesAdded.begin(), _coursesAdded.end());
 	
@@ -28,7 +28,7 @@ std::vector<std::string> Teacher::getCoursesAddedList() {
 	return std::vector<std::string>();
 }
 
-std::string Teacher::toString() {
+std::string Teacher::toString() const {
 	return "";
 }
 
@@ -53,7 +53,7 @@ void Teacher::report(std::string) {
 }
 
 std::ostream& operator << (std::ostream& s, const Teacher& a) {
-	return s;
+    return s << a.toString();
 }
 
 Teacher* Teacher::getInstance(std::string username, std::string password) {
@@ -85,6 +85,7 @@ Teacher* Teacher::getInstance(std::string username, std::string password) {
 		data["date_of_birth"].asString(), 
 		data["gender"].asBool(), 
 		data["role"].asInt(), 
+        data["rating"].asInt(),
 		courses, 
 		courses_added 
 	);
