@@ -15,6 +15,9 @@ public:
 
     static std::string randomStr(int len, std::string prefix = "");
 
+    bool isPhoneNumber(std::string s);
+    bool isEmailAddress(std::string s);
+
 	template <class T>
     static void _swap(T& a, T& b);
 
