@@ -1,0 +1,26 @@
+{
+	"admin" : 
+	{
+		"courses" : [],
+		"date_of_birth" : "2020/01/03",
+		"email" : "dotrann@1412@gmail.com",
+		"gender" : false,
+		"id" : "Undefined",
+		"name" : "Do Tran",
+		"password" : "0192023a7bbd73250516f069df18b500",
+		"phone_number" : "0336371434",
+		"role" : 1
+	},
+	"asaaaaaa" : 
+	{
+		"courses" : [],
+		"date_of_birth" : "2022/01/01",
+		"email" : "Undefined",
+		"gender" : false,
+		"id" : "USWLUKRI",
+		"name" : "Undefined",
+		"password" : "22841562f61620db23496f2d83d0d1f3",
+		"phone_number" : "Undefined",
+		"role" : 0
+	}
+}
