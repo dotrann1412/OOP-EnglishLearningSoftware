@@ -31,9 +31,9 @@ public:
 	void setPriority(int);
 
 public:
-	int getPriority();
-	std::string getTaskId();
-	std::string getMessage();
+    int getPriority() const;
+    std::string getTaskId() const;
+    std::string getMessage() const;
 
 public:
 	std::string toString() const;

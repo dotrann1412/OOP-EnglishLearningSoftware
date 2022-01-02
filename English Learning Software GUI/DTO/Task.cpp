@@ -52,15 +52,15 @@ void Task::setPriority(int priority) {
 	this->_priority = priority;
 }
 
-int Task::getPriority() {
+int Task::getPriority() const {
 	return this->_priority;
 }
 	
-std::string Task::getTaskId() {
+std::string Task::getTaskId() const {
 	return this->_taskId;
 }
 
-std::string Task::getMessage() {
+std::string Task::getMessage() const {
 	return this->_message;
 }
 
