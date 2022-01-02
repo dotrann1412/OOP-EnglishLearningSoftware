@@ -30,21 +30,21 @@
      <string notr="true">background-color: rgba(255, 255, 255, 255);</string>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="page">
      <widget class="QStackedWidget" name="homePagePanel">
       <property name="geometry">
        <rect>
-        <x>240</x>
+        <x>235</x>
         <y>10</y>
-        <width>1035</width>
-        <height>581</height>
+        <width>1041</width>
+        <height>571</height>
        </rect>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: rgb(230, 230, 230);
- border-radius: 15px;</string>
+border-radius: 15px;</string>
       </property>
       <property name="currentIndex">
        <number>-1</number>
@@ -53,10 +53,10 @@
      <widget class="QFrame" name="sideBarFrame">
       <property name="geometry">
        <rect>
-        <x>30</x>
+        <x>26</x>
         <y>10</y>
         <width>201</width>
-        <height>581</height>
+        <height>571</height>
        </rect>
       </property>
       <property name="frameShape">
@@ -697,6 +697,9 @@ background-color: rgba(255, 255, 255, 255);</string>
        <bold>true</bold>
       </font>
      </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
      <property name="styleSheet">
       <string notr="true">QComboBox::drop-down {
 	subcontrol-origin: padding;
@@ -707,7 +710,10 @@ background-color: rgba(255, 255, 255, 255);</string>
 	border-bottom-right-radius: 3px;
 }
 QComboBox::down-arrow {
-image: url();
+	border: 0px;
+}
+QComboBox::indicator{
+    border: none;
 }</string>
      </property>
      <property name="placeholderText">

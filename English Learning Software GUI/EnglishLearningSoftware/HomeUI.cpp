@@ -44,7 +44,7 @@ void Home::initializedView() {
     for(int i = 0; i < Home::SIDE_BAR_TABS; ++i) {
         this->sideBarButtons[i] = new QPushButton(),
         this->sideBarButtons[i]->setFixedWidth(181),
-        this->sideBarButtons[i]->setFixedHeight(131),
+        this->sideBarButtons[i]->setFixedHeight(125),
         this->sideBarButtons[i]->setStyleSheet(ConstantGUI::SIDE_BAR_PUSH_BUTTON_HOVER_STYLE),
         this->sideBarButtons[i]->setText(sideBarPushButtonContent[i]);
 
@@ -73,6 +73,7 @@ void Home::initializedView() {
         coursesAdvertise[i] = new CoursesAdvertise(this, 3);
 
     for(int i = 0; i < 10; ++i) {
+        coursesAdvertise[i]->setStyleSheet(ConstantGUI::VERTICAL_SCROLL_STYLE_TESTING);
         ((VerticalScrollArea*)homePageContent[1])->addWidget(coursesAdvertise[i]);
     }
 
@@ -83,9 +84,9 @@ void Home::initializedView() {
     for(int i = 0; i < Home::SIDE_BAR_TABS; ++i)
         this->ui->homePagePanel->insertWidget(i, homePageContent[i]);
 
-    sideBarIndex = 1;
-    this->ui->homePagePanel->setCurrentIndex(1);
-    sideBarButtons[1]->setStyleSheet(ConstantGUI::SIDE_BAR_PUSH_BUTTON_HOVER_CLICKED_STYLE);
+    sideBarIndex = 0;
+    this->ui->homePagePanel->setCurrentIndex(0);
+    sideBarButtons[0]->setStyleSheet(ConstantGUI::SIDE_BAR_PUSH_BUTTON_HOVER_CLICKED_STYLE);
 
     QPixmap pixmap(":/resources/icon/favicon.png");
     pixmap = pixmap.scaled(ui->favicon->size(),Qt::KeepAspectRatio);
