@@ -23,6 +23,8 @@ public:
     static const QString BORDER_HOMEPAGE_STYLE;
     static const QString LINE_EDIT_READ_ONLY;
     static const QString LINE_EDIT_IS_EDITTING;
+
+    static const QString VERTICAL_SCROLL_STYLE_TESTING;
 };
 
 #endif // CONSTANTGUI_H

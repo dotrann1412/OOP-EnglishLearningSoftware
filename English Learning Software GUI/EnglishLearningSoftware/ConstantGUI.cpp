@@ -36,8 +36,10 @@ const QString ConstantGUI::PUSH_BUTTON_WITH_HOVER_STYLE = QString("\
 );
 
 const QString ConstantGUI::ADVERTISE_DEMO_FORM_STYLE = QString("\
-    QWidget {"
-             "border: 1px solid black; border-radius: 10px;\
+    CoursesAdvertiseWidget{\
+        border: 1px solid black; \
+        border-radius: 10px;\
+        background-color: rgba(230, 230, 230);\
     }\
     QLabel {\
         background-color: grba(0,0,0,0);\
@@ -118,4 +120,12 @@ const QString ConstantGUI::LINE_EDIT_IS_EDITTING = QString("\
       border-radius: 3px;\
       background-color: rgb(240, 240, 240);\
   }\
+");
+
+const QString ConstantGUI::VERTICAL_SCROLL_STYLE_TESTING = QString("\
+     QScrollArea {\
+         border: .3 px;\
+         border-radius: 8px;\
+         background-color: rgb(230, 230, 230);\
+     }\
 ");;
