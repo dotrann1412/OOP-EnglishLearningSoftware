@@ -49,12 +49,6 @@ So you can use `Qt Creator` with these configurations to build the project:
 <image src = "./RMImage/abc_question_on_submitted.png"/>
 <image src = "./RMImage/tf_question_on_submitted.png"/>
 
-### User Information.
-
-<image src = "./RMImage/blank_question_on_submited.png"/>
-<image src = "./RMImage/abc_question_on_submitted.png"/>
-<image src = "./RMImage/tf_question_on_submitted.png"/>
-
 ### Ranking Page.
 <image src = "./RMImage/ranking.png"/>
 
