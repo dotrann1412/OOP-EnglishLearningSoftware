@@ -1,0 +1,9 @@
+Le Hai Duy
+2002/01/01
+Practice reading 2
+practice your reading skill 2
+200
+3
+../Data/Courses/Practice reading 2/test1.txt
+../Data/Courses/Practice reading 2/test2.txt
+../Data/Courses/Practice reading 2/test3.txt

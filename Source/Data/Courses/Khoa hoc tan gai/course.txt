@@ -1,0 +1,11 @@
+Le Hai Duy
+2002/01/01
+Khoa hoc tan gai
+day la khoa hoc day tan gai sieu cap vip pro
+100
+5
+../Data/Courses/Khoa hoc tan gai/test1.txt
+../Data/Courses/Khoa hoc tan gai/test1.txt
+../Data/Courses/Khoa hoc tan gai/test1.txt
+../Data/Courses/Khoa hoc tan gai/test1.txt
+../Data/Courses/Khoa hoc tan gai/test1.txt

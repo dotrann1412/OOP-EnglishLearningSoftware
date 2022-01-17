@@ -1,0 +1,54 @@
+test1
+3
+TF
+0
+read prg and select T or F
+0
+1
+today is sunny
+3
+Hai Duy is handsome?
+This is a dog?
+Is it ranning?
+TFT
+ABC
+0
+read prg and select a b c d
+1
+1
+a\xxx\ddqdwqd\abcxyz.img
+2
+3
+lmaadqwddqd dqdqqwdqwdqddqwdoqd
+qwdndoqwdoiqwoodjoqwioddjioqdjoqwjwoqdjoqdjqwjod
+qdnqdoqndoqoidowqodnonoqdnqwondododnqoioidwoinqo
+yes
+no
+no no
+yes yes
+0
+2
+nqdejdoiqwjoieqoioqioioiowioqwioioq
+qwejwewqeoepeppqpeoqkep
+nonoononowe  ewe  qw 
+yeyeyeyye eee ewe 
+nono qwe
+yeyey deqwe
+3
+BLANK
+1
+Data\Khoa hoc tan gai\temple.wav
+fill in the blank
+0
+5
+Teenagers having exams may feel stressed for different reasons. Their future may depend on their exam results.
+And many of them will probably be afraid that their performances will not be as good as their friends’ and may feel worried about being (1) ______ negatively to them.
+They may feel so (2) ______ by the amount of studying which they need to do. To obtain a good result, they may have to give up (3) ______ leisure activities such as doing sports and listening to music.
+Teenagers (4) ______ suffer from exam stress may show a variety of symptoms including loss of appetite, being unable to sleep and a lack of motivation to study. 
+(5) ______, it is important for teachers and parents to watch out for these signs and to be as supportive and encouraging as possible. 
+5
+compared
+exhausted
+many
+who
+therefore

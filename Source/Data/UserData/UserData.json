@@ -1,0 +1,82 @@
+{
+	"aaa" : 
+	{
+		"name" : "Ahihi",
+		"password" : "21232f297a57a5a743894a0e4a801fc3",
+		"role" : 0
+	},
+	"admin" : 
+	{
+		"courses" : 
+		[
+			"Khoa hoc tan gai",
+			"Practice Listen 1",
+			"Overall test 1",
+			"Agigi"
+		],
+		"day_of birth" : "2020/01/01",
+		"email" : "dotrann@1412@gmail.com",
+		"gender" : false,
+		"id" : "Undefined",
+		"name" : "Do Tran",
+		"password" : "21232f297a57a5a743894a0e4a801fc3",
+		"phone_number" : "0336371434",
+		"rating" : -76,
+		"role" : 1
+	},
+	"admin01" : 
+	{
+		"courses" : 
+		[
+			"Practice Listen 1"
+		],
+		"courses_added" : 
+		[
+			"Practice Listen 1"
+		],
+		"day_of birth" : "2020/01/01",
+		"email" : "admin01@student.hcmus.edu.vn",
+		"gender" : false,
+		"id" : "",
+		"name" : "Admin 01",
+		"password" : "21232f297a57a5a743894a0e4a801fc3",
+		"phone_number" : "Ahihi",
+		"rating" : 0,
+		"role" : 2
+	},
+	"teacher" : 
+	{
+		"courses" : 
+		[
+			"Agigi",
+			"Khoa hoc tan gai"
+		],
+		"courses_added" : 
+		[
+			"Agigi",
+			"Khoa hoc tan gai"
+		],
+		"day_of birth" : "2020/01/01",
+		"email" : "teacher@gmail.com",
+		"gender" : false,
+		"id" : "",
+		"name" : "Teacher",
+		"password" : "8d788385431273d11e8b43bb78f3aa41",
+		"phone_number" : "0336371434",
+		"rating" : 0,
+		"role" : 2
+	},
+	"user" : 
+	{
+		"courses" : [],
+		"day_of birth" : "2020/01/01",
+		"email" : "user@gmail.com",
+		"gender" : false,
+		"id" : "",
+		"name" : "User",
+		"password" : "ee11cbb19052e40b07aac0ca060c23ee",
+		"phone_number" : "033613332222",
+		"rating" : 0,
+		"role" : 0
+	}
+}

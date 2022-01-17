@@ -1,0 +1,47 @@
+Reading 1:A poster at work
+2
+BLANK
+0
+Put the Answers: An email/Now/Four/2.00 p.m./Tuesday/Comfortable to the questions.
+0
+13
+Come and join our lunchtime yoga class with experienced yoga teacher Divya Bridge!
+When? Every Tuesday at 1.30 p.m.
+Where? Meeting Room 7
+How much? £10 for four 30-minute classes.
+What to bring? Comfortable clothes. Divya will provide the yoga mats.
+How to join? Write to Sam at Sam.Holden@example.com
+We can only take a maximum of 20 in the room, so book now!
+1. Which day of the week does the yoga class take place? _____
+2. How many classes can you take for £10? _____
+3. What time will the class end? _____
+4. What kind of clothes do you need to wear to the class? ____ clothes
+5. What do you need to send to Sam if you want to join? ____
+6. When should you book if you want to join? _____
+6
+Tuesday
+Four
+2.00 p.m
+Comfortable
+An email
+Now
+TF
+0
+Decide if the statements are true or false.
+0
+7
+Come and join our lunchtime yoga class with experienced yoga teacher Divya Bridge!
+When? Every Tuesday at 1.30 p.m.
+Where? Meeting Room 7
+How much? £10 for four 30-minute classes.
+What to bring? Comfortable clothes. Divya will provide the yoga mats.
+How to join? Write to Sam at Sam.Holden@example.com
+We can only take a maximum of 20 in the room, so book now!
+6
+1. Sam Holden is the yoga teacher.
+2. The yoga class is once a week.
+3. The class is at lunchtime in room 7.
+4. You need to bring yoga mats to the class.
+5. The class can't take 22 people.
+6. You need to call Sam Holden if you want to join the class.
+FTTFTF

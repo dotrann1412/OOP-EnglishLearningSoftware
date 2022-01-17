@@ -1,0 +1,37 @@
+9
+Le Hai Duy
+Khoa hoc tan gai
+9999999
+../Data/Courses/Khoa hoc tan gai/course.txt
+Le Hai Duy
+Overall test 1
+150
+../Data/Courses/Overall test 1/course.txt
+Le Hai Duy
+Overall test 2
+250
+../Data/Courses/Overall test 2/course.txt
+Le Hai Duy
+Practice listening 1
+100
+../Data/Courses/Practice listening 1/course.txt
+Le Hai Duy
+Practice listening 2
+200
+../Data/Courses/Practice listening 2/course.txt
+Le Hai Duy
+Practice reading 1
+100
+../Data/Courses/Practice reading 1/course.txt
+Le Hai Duy
+Practice reading 2
+200
+../Data/Courses/Practice reading 2/course.txt
+
+Agigi
+0
+..\Data\Courses\Agigi\course.txt
+Admin 01
+Demo admin 01
+0
+..\Data\Courses\Demo admin 01\course.txt

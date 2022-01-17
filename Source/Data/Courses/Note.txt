@@ -1,0 +1,9 @@
+1. mỗi khoá học cần 1 phương thức trả về max score (số điểm tối đa có thể đạt được)
+2. update UML cho (tất cả)
+3. viết báo cáo
+4. load Course Info List cho  nào đó
+
+GUI 
+1. Admin page
+2. Teacher page + add Course
+3. learning page (đã có ý tưởng).

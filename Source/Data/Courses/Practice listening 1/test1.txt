@@ -1,0 +1,65 @@
+Listen1 The importance of colours
+3
+TF
+1
+Data\Courses\Practice listening 1\Listen1.mp3
+Listen to the interview. Which of these colours are mentioned?
+0
+0
+9
+green
+purple
+grey
+orange
+red
+black
+blue
+yellow
+white
+TTFTTTTTT
+BLANK
+1
+Data\Courses\Practice listening 1\Listen1.mp3
+Listen again and answer the questions with a colour.
+0
+8
+Which colour is often used by companies in their logos? (1) ____
+Which colour is often used for modern gadgets? (2) ____
+What is the traditional colour for the dress at an Asian wedding? (3) ____
+Which colour on a door represents good luck? (4) ____
+Which colour is good if you are stressed? (5) ____
+Which colour is the most visible? (6) ____
+Which colour is a mix of blue and red? (7) ____
+Which colour were early mass-produced cars? (8) ____
+8
+blue
+white
+red
+red
+green
+yellow
+purple
+black
+BLANK
+1
+Data\Courses\Practice listening 1\Listen1.mp3
+Complete the sentences with these words from the interview.
+0
+8
+Blue is a colour of (1) ____ and stability.
+White is perceived as a (2) ____ , modern colour.
+In Asia, white is the colour commonly associated with (3) ____
+In Britain, a black cat is thought to bring you (4) ____
+Green is regarded as a (5) ____ colour and stops you feeling nervous.
+Most countries in the world see yellow as a (6) ____ colour.
+Orange represents good (7) ____ for money.
+Purple is the second most (8) ____ colour for females, after blue.
+8
+security
+sophisticated
+death
+luck
+relaxing
+happy
+value
+popular

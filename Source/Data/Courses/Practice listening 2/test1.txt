@@ -1,0 +1,43 @@
+Listen4 A question of science
+2
+TF
+1
+Data\Courses\Practice listening 2\Listen4.mp3
+Listen to the radio programme. Are these sentences true or false?
+0
+0
+8
+Some animals hibernate because there isn’t enough food.
+Squirrels sleep for several months.
+Polar bears give birth after the winter.
+Water vapour freezes to form snow.
+All snowflakes are the same shape.
+Dirty snow takes longer to melt than clean snow.
+Tears dilute the acid forming in your eyes as you peel onions.
+Wearing contact lenses stops you crying as you peel onions.
+TFTTFFTT
+BLANK
+1
+Data\Courses\Practice listening 2\Listen4.mp3
+Complete the text about hibernation with the words in the box.
+0
+8
+Hibernation
+The (1) ____  reason that animals hibernate is because it is cold. In winter there is very
+(2) ____ food for all the animals to eat and animals that live on fish find it hard to
+(3) ____ the ice on the water. Before hibernating, animals eat a lot which gives them extra layers of (4) ____
+. When winter comes, they (5) ____ the temperature of their body and enter a deep sleep like state. Their heart rate also
+(6) ____ , which means their bodies need less energy. Some animals like squirrels (7) ____ food nearby. They then
+(8) ____ up every few days, eat and go back to sleep. Pregnant polar bears hibernate while their babies (9) ____ inside them. 
+After the winter they give (10) ____.
+10
+main
+little
+break
+fat
+lower
+slows
+store
+wake
+develop
+birth

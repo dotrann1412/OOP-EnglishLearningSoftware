@@ -1,0 +1,106 @@
+Listen8 Hotel receptionist
+2
+ABC
+1
+Data\Courses\Practice listening 2\Listen8.mp3
+Listen to the conversations and choose the correct answers.
+0
+0
+10
+1
+Why is the man upset?
+A.There is a mistake with his bill.
+B. His bill is more expensive than he expected.
+C. No idea.
+D. Two.
+1
+1
+Why does he think he should pay only half?
+A. He only ate half of his meal.
+B. He only received half of the food he ordered.
+C. He ate a hour.
+D. He play a hour.
+0
+1
+Why does the woman phone the hotel?
+A. She has lost her mobile phone.
+B. She can’t find her way back to the hotel.
+C. She can find her way back to the hotel.
+D. She should find her way.
+1
+1
+Why will it be difficult for Sandi to help her?
+A. The woman can’t describe where she is.
+B. The woman can’t find her phone.
+C. The woman can find her phone.
+D. The woman may find her phone.
+0
+1
+Why is the man angry?
+A. Sandi can’t find his reservation.
+B. His golf tournament has been cancelled.
+C. Sandi can find his reservation.
+D. His golf tournament han been not cancelled.
+0
+1
+What mistake did the man make?
+A. He forgot to make the reservation.
+B. He came to the wrong hotel.
+C. He remember making the reservation.
+D. No idea.
+1
+1
+Why is the woman angry?
+A. She saw a ghost.
+B. She didn’t see a ghost.
+C. She may saw a ghost.
+D. She didn't.
+1
+1
+What is Sandi’s explanation?
+A. The ghost is on holiday.
+B. There is no ghost.
+C. There are many.
+D. There is a ghost.
+0
+1
+Why does the man phone the reception desk?
+A. The rain is coming into his room.
+B. The rain is making a noise on the window.
+C. The rain isn't coming into his room.
+D. The rain isn't making a noise on the window.
+1
+1
+What does Sandi offer to do?
+A. She offers to find the man another room.
+B. She doesn’t offer to do anything.
+C. She offer to do anything.
+D. She allways do anything.
+1
+BLANK
+1
+Data\Courses\Practice listening 2\Listen8.mp3
+Listen again. Complete the sentences with words from the box.
+0
+10
+The man’s total (1) ____ comes to £324.15.
+The man ordered a pizza and a drink from (2) ____
+The woman says she is a (3) ____ at the hotel.
+Sandi offers to give the woman (4) ____
+Sandi can’t find the man’s (5) ____ on the computer.
+The man gave a (6) ____ number to reserve the room.
+The woman is  (7) ____ of the hotel.
+The woman is not happy, and she wants a (8) ____
+The man is in the hotel (9) ____ room.
+He is meeting a very important (10) ____
+10
+bill
+room service
+guest
+directions
+reservation
+credit card
+checking out
+refund
+conference
+client

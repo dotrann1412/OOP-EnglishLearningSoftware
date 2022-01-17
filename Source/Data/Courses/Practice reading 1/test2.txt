@@ -1,0 +1,49 @@
+A restaurant menu
+2
+TF
+0
+Read the menu and choose T or F
+0
+22	
+Meat and fish
+Grilled fish of the day --------------------------------------------------------------£8.00
+Steak with chips or salad -----------------------------------------------------------£12.00
+Sausage and roast tomato pasta -------------------------------------------------------£7.00
+Chicken salad with garlic yoghurt dressing -------------------------------------------£7.00
+Vegetarian
+Cheese and tomato pizza --------------------------------------------------------------£7.00
+Mushroom omelette --------------------------------------------------------------------£6.00
+Vegetable chili ----------------------------------------------------------------------£7.00
+Soup of the day with brown or white bread --------------------------------------------£4.00
+Something sweet
+Homemade carrot cake -----------------------------------------------------------------£3.50
+Homemade banana cake -----------------------------------------------------------------£3.50
+Chocolate ice cream with chocolate sauce ---------------------------------------------£3.50
+Fresh fruit salad with grapes, mango, melon and apple, served with cream or ice cream £3.50
+Drinks
+Cup of coffee ------------------------------------------------------------------------£2.00
+Cup of tea ---------------------------------------------------------------------------£1.50
+Glass of wine, white or red ----------------------------------------------------------£3.00
+Beer ---------------------------------------------------------------------------------£3.00
+Water, still or sparkling ------------------------------------------------------------£1.00
+Orange juice -------------------------------------------------------------------------£2.00
+6
+1. The fish is the same every day.
+2. You can choose what comes with the steak.
+3. The pizza has meat on it.
+4. Soup is served with bread.
+5. They make the ice cream themselves.
+6. The cheapest drink is coffee.
+FTFTFF
+BLANK
+0
+Put the correct word to each group Drinks/Ways to prepare food/Meat
+0
+3
+1. Steak/chicken/sausage ______
+2. Coffe/juice/red wine _______
+3. Homemade/grilled/roast _____
+3
+Meat
+Drinks
+Ways to prepare food

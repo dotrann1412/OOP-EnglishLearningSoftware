@@ -1,0 +1,74 @@
+Listen2 Coincidences
+4
+TF
+1
+Data\Courses\Practice listening 1\Listen2.mp3
+Listen to the interview. Which of these topics are discussed?
+0
+0
+8
+birthdays
+twins
+a plane crash survivor
+the weather
+the moon
+Romeo and Juliet
+weddings
+Presidents
+TTFFTFFT
+TF
+1
+Data\Courses\Practice listening 1\Listen2.mp3
+Listen again. Are these sentences true or false?
+0
+0
+8
+At university Tom knew eight other students with the same name.
+The sun is the same size as the moon.
+President Lincoln was assassinated on a Friday in 1863.
+The interviewer’s name is Lincoln.
+The American twins both married women called Betty.
+The Britannic had more lifeboats than the Titanic so fewer passengers died.
+The ship in the book was also called the Titanic.
+Juliet and her husband went on holiday to Italy together.
+TFTFTTFF
+BLANK
+1
+Data\Courses\Practice listening 1\Listen2.mp3
+Listen again and write the year these events happened.
+0
+6
+President Lincoln was elected President of the United States. (1) ____
+President Kennedy was elected President of the United States. (2) ____
+Kennedy was assassinated. (3) ____
+The Titanic sank on its maiden voyage. (4) ____
+The Britannic sank. (5) ____
+The Wreck of the Titan was published. (6) ____
+6
+1860
+1960
+1963
+1912
+1916
+1898
+BLANK
+1
+Data\Courses\Practice listening 1\Listen2.mp3
+Complete the text with the correct active or passive form of the verbs in brackets.
+0
+6
+John F Kennedy (1) ____ (elect) to Congress in 1946, exactly one hundred years after Abraham Lincoln. He 
+(2) ____ (become) President of the United States in 1960, exactly one hundred years after Lincoln. President Lincoln 
+(3) ____ (shoot) by John Wilkes-Booth. Lee Harvey Oswald, also a man with three names, 
+(4) ____ (murder) President Kennedy. The two Presidents (5) ____ (shoot) in the head and both Lincoln and Kennedy 
+(6) ____ (succeed) by a man named Johnson. Lincoln’s secretary 
+(7) ____ (call) Kennedy and Kennedy’s secretary’s name (8) ____ (be) Lincoln.
+8
+was elected
+became
+was shot
+murdered
+was shot
+were succeeded
+was called
+was

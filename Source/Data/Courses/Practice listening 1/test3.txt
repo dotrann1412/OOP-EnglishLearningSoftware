@@ -1,0 +1,64 @@
+Listen3 A job interview
+3
+BLANK
+1
+Data\Courses\Practice listening 1\Listen3.mp3
+Listen to the interview and complete the questions Jessica is asked. Write one or two words in each gap.
+0
+8
+What do your (1) ____ say about you?
+What (2) ____ would they make?
+Where do you (3) ____ in three years?
+Could you tell us about a time you (4) ____ ?
+Why do you want to leave your (5) ____ ?
+What sort of (6) ____ would you expect?
+If you were an (7) ____ , what would you be?
+Why should we (8) ____ you?
+8
+colleagues
+negative comments
+see yourself
+failed
+current job
+salary package
+animal
+hire
+TF
+1
+Data\Courses\Practice listening 1\Listen3.mp3
+Listen again. Are these sentences true or false?
+0
+0
+8
+There are three candidates for the job.
+David and Charlotte will ask the candidates the same questions.
+Jessica thinks she is popular with her team.
+She is very quiet in the work place.
+She doesn’t expect to stay in the new company for more than three years.
+She has never refused a customer’s request.
+She is currently working for a traditional kind of company.
+She wants a new car with the job.
+TTTFFFTF
+BLANK
+1
+Data\Courses\Practice listening 1\Listen3.mp3
+Complete these sentences with the adjectives from the interview.
+0
+8
+I don’t think Katy’s ever been late for work. She’s incredibly (1) ____
+Even though he’s only been here for three months, Jason has applied for the manager’s position. He’s very (2) ____
+My boss always makes up her mind about what to do very quickly. I like (3) ____ people.
+Her uncle has been with the same company for over twenty years. He’s very (4) ____
+I don’t think that sales rep likes big meetings where she has to speak. She seems to get really (5) ____
+It’s no good being (6) ____ if you keep making mistakes. 
+My two team members are very different. Nicole is extremely (7) ____ and Robert is just so lazy.
+I like talking to Tim, but many people find him too (8) ____
+8
+punctual
+ambitious
+decisive
+loyal
+nerous
+fast
+hard-working
+chaty

@@ -1,0 +1,90 @@
+Overall test 2
+4
+TF
+0
+Are the sentences true or false?
+0
+8
+The International Centre
+Whether you are looking for a conference venue or a place to have your meetings and your training days, the International Centre is the perfect modern space for your event.
+Offering free Wi-Fi, secure parking and all-day refreshments, the International Centre has 120 meeting rooms and a theatre for up to 1,000 people.
+Conveniently located in the city centre, the International Centre is close to the shops and only a ten-minute walk to the train station.
+The Grand West
+The Grand West is a country house surrounded by rolling hills and beautiful scenery, only a 30-minute drive from the airport.
+With 76 hotel rooms, 12 meeting rooms and a conference room that takes up to 200 people, the Grand West offers free Wi-Fi and a whiteboard in every room.
+You can also make use of the gardens of the Grand West for team-building events and outdoor activities. Our indoor swimming pool, gym and 18-hole golf course will ensure that your event is relaxing and enjoyable for everyone.
+6
+1. If you need a large conference venue for about 600 people, you should book the International Centre.
+2. If you want to go shopping after your meetings, you should book the Grand West.
+3. Only the International Centre offers free Wi-Fi.
+4. If you go to a conference at the International Centre, you can have food and drink any time during the day.
+5. You can have fun playing golf if you go to an event at the Grand West.
+6. You have to walk for 30 minutes if you want to go from the Grand West to the airport.
+TFFTTF
+BLANK
+1
+Data\Courses\Overall test 2\Listen11.mp3
+Listen to the radio programme and choose the correct options to complete the sentences.
+0
+3
+The first caller, Elizabeth, is (1) ____ the development.
+The second caller, Sanjay, is (2) ____ the development.
+The third caller, Tess, is (3) ____ the development.
+3
+against
+against
+for
+ABC
+1
+Data\Courses\Overall test 2\Listen11.mp3
+Listen again and choose the correct answers.
+0
+0
+4
+1
+What does Riverfront Development International want to build?
+A. a hotel and conference centre
+B. a hotel and campsite
+C. a hotel and shopping centre
+D. a hotel and shop
+0
+1
+What does Elizabeth say?
+A. She thinks the area needs more tourists.
+B. She isn’t worried about the local economy.
+C. She wants to have a peaceful retirement.
+D. She is worried about the local economy.
+2
+1
+Why is Sanjay worried?
+A. Unemployment is a problem in Spruce Bay.
+B. There aren’t enough activities for tourists.
+C. The local environment is at risk.
+D. The local evironment isn't at risk.
+2
+1
+Why does Tess like the new plans?
+A. She hopes to get a summer job.
+B. She enjoys water sports.
+C. She thinks it will be good for the university.
+D. She like water sports.
+0
+BLANK
+1
+Data\Courses\Overall test 2\Listen11.mp3
+Complete the sentences with verbs from the box.
+0
+6
+Should the Spruce Bay city government (1) ____ the plans for a luxury hotel and conference centre?
+We also plan to (2) ____ a state-of-the-art conference centre.
+We will (3) ____ jobs for local people.
+This hotel is going to (4) ____ the environment.
+I’ll be able to (5) ____ some valuable work experience.
+I’ll (6) ____ some money to pay for my education.
+6
+approve
+build
+create
+damage
+get
+make
