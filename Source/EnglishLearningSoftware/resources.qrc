@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/icon/hand-up.jpg</file>
+        <file>resources/icon/hand-up.png</file>
+        <file>resources/icon/favicon.png</file>
+        <file>resources/courses/default.jpg</file>
+        <file>resources/icon/default_avt.png</file>
+        <file>resources/icon/add-icon.png</file>
+        <file>resources/icon/false.png</file>
+        <file>resources/icon/ok.png</file>
+        <file>resources/icon/options.png</file>
+        <file>resources/icon/pause.png</file>
+        <file>resources/icon/play.png</file>
+        <file>resources/icon/player.png</file>
+        <file>resources/icon/plus.png</file>
+        <file>resources/icon/refreash.png</file>
+        <file>resources/icon/remove.png</file>
+        <file>resources/icon/return.png</file>
+        <file>resources/icon/stop.png</file>
+        <file>resources/icon/toolbar_other.png</file>
+        <file>resources/icon/turnLeft_h.png</file>
+        <file>resources/icon/turnLeft_l.png</file>
+        <file>resources/icon/turnRight_h.png</file>
+        <file>resources/icon/turnRight_l.png</file>
+        <file>resources/icon/wait2.gif</file>
+        <file>resources/icon/warning.png</file>
+        <file>resources/icon/appicon.ico</file>
+        <file>resources/icon/appicon.png</file>
+        <file>resources/icon/big_default_avt.png</file>
+        <file>resources/icon/pending_function.png</file>
+    </qresource>
+</RCC>

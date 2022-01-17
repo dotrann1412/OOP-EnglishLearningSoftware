@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddCourseUI</class>
+ <widget class="QWidget" name="AddCourseUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>615</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>575</x>
+     <y>30</y>
+     <width>291</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>510</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add test file</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>398</x>
+     <y>560</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>30</y>
+     <width>371</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>ENTER COURSE INFORMATION</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>104</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Course's Name:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Intro:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>404</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Difficulty:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>110</y>
+     <width>391</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+	border-radius: 8px;
+	border: 0px;
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="intro">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>160</y>
+     <width>391</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit {
+	border-radius: 8px;
+	border: 0px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="diff">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>410</y>
+     <width>391</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+	border-radius: 8px;
+	border: 0px;
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>Integer from 0 to 100</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EnglishTest</class>
+ <widget class="QFrame" name="EnglishTest">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1291</width>
+    <height>763</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <widget class="QWidget" name="frame" native="true">
+   <property name="geometry">
+    <rect>
+     <x>29</x>
+     <y>150</y>
+     <width>400</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 0px;
+background-color: rgba(230, 230, 230, 0);
+text-align: center;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

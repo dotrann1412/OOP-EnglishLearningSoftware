@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CoursesAdvertise</class>
+ <widget class="QWidget" name="CoursesAdvertise">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>384</width>
+    <height>191</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	border: 1px solid black; border-radius: 10px;
+	background-color: rgb(100, 128, 150);
+}
+
+QLabel {
+	border: none;
+    background-color: grba(0,0,0,0);
+}
+
+QPushButton {
+	border: none;
+}</string>
+  </property>
+  <widget class="QPushButton" name="coursesName">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>20</y>
+     <width>191</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(0, 0, 0, 0);
+border: 0px;</string>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ratingLbl">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>110</y>
+     <width>121</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="questionNumberLbl">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>140</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="dayModifiedLbl">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>80</y>
+     <width>121</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="authorLbl">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>50</y>
+     <width>121</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>110</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Rating:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>140</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Question:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>80</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Modified:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>50</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>By:</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>391</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame {
+	background-color: rgba(240, 240, 240, 255);
+	border-radius: 8px;
+	border: 0px;
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="demoLbl">
+    <property name="geometry">
+     <rect>
+      <x>18</x>
+      <y>40</y>
+      <width>121</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #fff;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <zorder>frame</zorder>
+  <zorder>coursesName</zorder>
+  <zorder>ratingLbl</zorder>
+  <zorder>questionNumberLbl</zorder>
+  <zorder>dayModifiedLbl</zorder>
+  <zorder>authorLbl</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_8</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

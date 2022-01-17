@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TeacherTaskPageUI</class>
+ <widget class="QWidget" name="TeacherTaskPageUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1041</width>
+    <height>571</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>500</y>
+     <width>201</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> QPushButton {
+	background-color: rgb(45, 18, 153);
+   border-radius: 12px;  
+   color: #fff;
+   font-family: Inter,sans-serif;
+   font-size: 1.2rem;
+   font-weight: 700;
+   line-height: 1;
+   margin: 0;
+   outline: none;
+   padding: 1rem 1.2rem;
+   text-align: center;
+   text-decoration: none;
+   white-space: nowrap;
+   border: 0;
+ }
+QPushButton:hover:!pressed
+{
+  border: 1.5px solid rgb(55, 45, 135);
+}
+ QPushButton:hover {
+ }</string>
+   </property>
+   <property name="text">
+    <string>Create new course!</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>65</x>
+     <y>90</y>
+     <width>901</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame {
+	background-color: rgb(250, 250, 250);
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>396</x>
+     <y>20</y>
+     <width>251</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>TEACHER MANAGEMENT</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>417</x>
+     <y>470</y>
+     <width>201</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>You have added ... course!</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

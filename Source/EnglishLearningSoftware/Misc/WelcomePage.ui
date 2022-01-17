@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WelcomePage</class>
+ <widget class="QWidget" name="WelcomePage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>776</width>
+    <height>527</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>301</x>
+     <y>50</y>
+     <width>181</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>WELCOME</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>140</y>
+     <width>591</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;b&gt;Hi! Welcome to our learning English freeware. &lt;/b&gt;
+&lt;p&gt;This is a medium project developed by my team. This is the first version so maybe it has lots of mistakes, sorry about that! But, if you have any idea, you can contact us via e-mail, Facebook or send an issue to &lt;a href=&quot;https://github.com/dotrann1412/OOP-EnglishLearningSoftware&quot;&gt;our Github repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Best wishes!&lt;/p&gt;</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>502</y>
+     <width>751</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Version 1.0 - developed by Tai Vo, Duy Hai Le, Do Tran.</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
