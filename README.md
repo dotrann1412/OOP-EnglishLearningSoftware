@@ -12,10 +12,12 @@ This is our final project of the Object-Oriented Programming course. In this pro
 ## Build config
 This is a `C++` Application with `Qt Framework`.
 
-So you can use `Qt Creator` with these configurations to build the project:
+So you can use `Qt Creator` and follow these configurations to build the project:
 * Qt Framework 6.2.1.
 * Compiler: `MSVC2019`.
 * Windows OS (Recommended).
+
+Build version for debug and release maybe have lots of different in running.
 
 ## App demo
 
