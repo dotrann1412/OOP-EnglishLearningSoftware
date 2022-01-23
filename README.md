@@ -9,7 +9,7 @@ Contributors:
 
 This is our final project of the Object-Oriented Programming course. In this project, we have to build a mini application that help everyone learning English by easily. This project just in the beta version, not gold, so if anyone see the problem with the app, feel free to contact us via <a href = "mailto: 20120057@student.hcmus.edu.vn">E-mail</a> or send an issue to <a href="https://github.com/dotrann1412/OOP-EnglishLearningSoftware">our repository!</a>
 
-## Build config
+## How to build?
 This is a `C++` Application with `Qt Framework`.
 
 So you can use `Qt Creator` and follow these configurations to build the project:
