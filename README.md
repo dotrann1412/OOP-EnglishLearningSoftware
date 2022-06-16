@@ -19,6 +19,8 @@ So you can use `Qt Creator` and follow these configurations to build the project
 
 Build version for debug and release maybe have lots of different in running.
 
+<!---
+
 ## App demo
 
 ### Home Page (Session have not initlialized).
@@ -68,3 +70,4 @@ Build version for debug and release maybe have lots of different in running.
 
 ## More
 Follow the <a href = "./Document/Report.pdf"> Report </a> and <a href = "./Document/Diagram.jpg"> Class Diagram </a> for more information.
+-->
